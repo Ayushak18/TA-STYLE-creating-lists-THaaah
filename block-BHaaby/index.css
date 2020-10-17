@@ -124,3 +124,7 @@ dd{
 .bottom{
     margin-bottom: 50px;
 }
+
+.square li {
+    list-style-type: square;
+}
