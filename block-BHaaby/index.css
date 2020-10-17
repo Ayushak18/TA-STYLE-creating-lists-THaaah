@@ -1,0 +1,130 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body{
+    background: #d3cda7;
+    font-family: "open sans", sans-serif;
+}
+
+.container{
+    margin: 0 120px;
+}
+
+header{
+    background: #f16131;
+    padding: 30px 0;
+}
+
+.flex{
+    display: flex;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.flex-row{
+    display: flex;
+}
+.row{
+    background-color: #10597a;
+    padding: 10px;
+    margin: 50px 30px;
+    width: 100%;
+    box-shadow:10px 10px 10px 2px #5f6256;
+}
+
+.row li {
+    color: #cbcfb2;
+    padding: 10px 0;
+}
+
+.row ol{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.row ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.row li{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.three li{
+    list-style-image: url("./assets/black-tick.png");
+}
+
+footer{
+    background-color: #252c23;
+    padding: 50px 0;
+}
+
+
+dt{
+    font-size: 34px;
+    padding: 10px 0;
+}
+
+dd{
+    color: #6b6355;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.bottom{
+    margin-bottom: 50px;
+}
+
+.square li {
+    list-style-type: square;
+}
