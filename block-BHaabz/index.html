@@ -1,0 +1,321 @@
+<!-- - Create a layout according to the design shown below.
+
+![Creating lists Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/lists/ex-2.png)
+
+**Dropdown Menu**
+
+![Creating lists Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/lists/ex-2-dropdown.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Creating List Assignment 2</title>
+        <link rel="stylesheet" href="./index.css">
+        <script src="https://kit.fontawesome.com/67427b16f1.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav class="container">
+                <ul class="left">
+                    <li>Elevation</li>
+                </ul>
+                <ul class="right">
+                    <li>Home</li>
+                    <div class="drop">
+                        <i class="fas fa-caret-down"></i>
+                        <li >
+                            Page Layout
+                            <ul class="down">
+                                <li>Left Sidebar</li>
+                                <li>Right Sidebar</li>
+                                <li>No-Sidebar</li>
+                                <li>Submenu</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li>Elements</li>
+                </ul>
+            </nav>
+            <div class="hero">
+                <h1>Lorem Ipsum Dolor</h1>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <button class="hero-btn">Magna Sed Etiam</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="three-icon-section">
+                <div class="heading-para">
+                    <div class="three">
+
+                        <div class="line-div-one">
+                            <div class="line"></div>
+                            <div class="line short one"></div>
+                            <div class="line shorter two"></div>
+                        </div>
+
+                        <h2>Lorem Ipsum Dolor</h2>
+
+                        <div class="line-div-two">
+                            <div class="line"></div>
+                            <div class="line short"></div>
+                            <div class="line shorter"></div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde nam hic obcaecati quia perspiciatis laudantium totam assumenda, magni sit dolore eum minus, quod iure, excepturi fugiat. Repudiandae, fugiat quae!</p>
+                </div>
+
+
+                <section class="three-box">
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-user fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-tint fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-cog fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="pink">
+                <div class="heading-para">
+                    <div class="three">
+
+                        <div class="line-div-one">
+                            <div class="line"></div>
+                            <div class="line short one"></div>
+                            <div class="line shorter two"></div>
+                        </div>
+
+                        <h2 class="white">Quis autem vel</h2>
+
+                        <div class="line-div-two">
+                            <div class="line"></div>
+                            <div class="line short"></div>
+                            <div class="line shorter"></div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde nam hic obcaecati quia perspiciatis laudantium totam assumenda, magni sit dolore eum minus, quod iure, excepturi fugiat. Repudiandae, fugiat quae!</p>
+                </div>
+
+                <section class="three-box with-two-box">
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-chart-bar fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-cog fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                </section>
+                <section class="three-box with-two-box">
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="circle-around-icon">
+                            <i class="fas fa-check fa-2x"></i>
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="img-section">
+
+                <div class="heading-para">
+                    <div class="three">
+
+                        <div class="line-div-one">
+                            <div class="line"></div>
+                            <div class="line short one"></div>
+                            <div class="line shorter two"></div>
+                        </div>
+
+                        <h2>Lorem Ipsum Dolor</h2>
+
+                        <div class="line-div-two">
+                            <div class="line"></div>
+                            <div class="line short"></div>
+                            <div class="line shorter"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="three-box img-box">
+                    <div class="box">
+                        <div>
+                            <img src="./assets/pic01.jpg" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="./assets/pic02.jpg" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum </h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="./assets/pic03.jpg" alt="">
+                        </div>
+                        <div class="box-text">
+                            <h2>Lorem Ipsum</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti assumenda aliquam, fugiat, non dolores </p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="contact-section">
+                <div class="heading-para">
+                    <div class="three">
+
+                        <div class="line-div-one">
+                            <div class="line"></div>
+                            <div class="line short one"></div>
+                            <div class="line shorter two"></div>
+                        </div>
+
+                        <h2>CONTACT</h2>
+
+                        <div class="line-div-two">
+                            <div class="line"></div>
+                            <div class="line short"></div>
+                            <div class="line shorter"></div>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui unde nam hic obcaecati quia perspiciatis laudantium totam assumenda, magni sit dolore eum minus, quod iure, excepturi fugiat. Repudiandae, fugiat quae!</p>
+                </div>
+
+                <section class="form-section">
+                    <div class="middle">
+                        <div class="form-btn">
+                            <div class="form">
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Email">
+                                <textarea cols="40" rows="13" placeholder="Message"></textarea>
+                                
+                                <div class="btn">
+                                    <button class="red">SEND</button>
+                                    <button>RESET</button>
+                                </div>
+                            </div>        
+                        </div>
+
+                        <div class="address-section">
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>
+                                    Untitled Corporation.
+                                    <br>
+                                    <br>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure aliquam iste aperiam.
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="phone">
+                                <i class="fas fa-phone-alt fa-2x"></i>
+                                <p>000-000-123-456-789</p>
+                            </div>
+                            <hr>
+                            <div class="mail">
+                                <i class="fas fa-envelope fa-2x"></i>
+                                <p>xyz.abc@gma</p>
+                            </div>
+                            <hr>
+                            <div class="twitter">
+                                <i class="fab fa-twitter fa-2x"></i>
+                                <p>Twitter</p>
+                            </div>
+                            <hr>
+                            <div class="facebook">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                                <p>Facebook</p>
+                            </div>
+                            <hr>
+                            <div class="linkedin">
+                                <i class="fab fa-linkedin fa-2x"></i>                                <p>LinkedIn</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            
+        </main>
+
+        <footer>
+            <div class="text">
+                <div class="info">
+                    <p>About </p>
+                    <span>|</span>
+                    <p>Terms of Use </p>
+                    <span>|</span>
+                    <p>Privacy Policy </p>
+                    <span>|</span>
+                    <p>Contact Us</p>
+                </div>
+                <div class="copy">
+                    <p>&copy;Ayush Kamboj. All right reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
